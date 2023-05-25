@@ -27,14 +27,14 @@
   </build>
    <distributionManagement>
         <repository>
-            <id>deployment</id>
-            <name>Internal Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-rel/</url>
+            <id>nexus</id>
+            <name>p3-release</name>
+            <url>http://65.2.171.239:8081/repository/p3-release/</url>
         </repository>
         <snapshotRepository>
-            <id>deployment</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://10.128.0.10:8081/repository/student-snap/</url>
+            <id>nexus</id>
+            <name>p3-snapshot</name>
+            <url>http://65.2.171.239:8081/repository/p3-snapshot/</url>
         </snapshotRepository>
     </distributionManagement>
   <properties>
